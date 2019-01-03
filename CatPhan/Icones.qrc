@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="Icones">
+    <file>amule.png</file>
+    <file>development-gtk.ico</file>
+  </qresource>
+</RCC>

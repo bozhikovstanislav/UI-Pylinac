@@ -1,0 +1,7 @@
+Patient ID:	Arck
+Plan Name:	PFRAHDD
+Plan UID:	1.2.246.352.71.5.545096603471.43105.20181227103615
+Beam Number :	0
+Beam Name :	T1.1_PF_RA
+Original MU :	480
+

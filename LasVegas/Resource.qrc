@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="Icones">
+    <file>kstars.png</file>
+    <file>development-ruby.png</file>
+    <file>amor.png</file>
+    <file>emblem-advertisement-dollar.png</file>
+    <file>xfig.png</file>
+    <file>distributions-lea_linux.png</file>
+    <file>licq-2.ico</file>
+  </qresource>
+</RCC>

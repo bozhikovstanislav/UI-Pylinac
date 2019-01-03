@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="Icons">
+    <file>festastic.ico</file>
+    <file>kompare-2.png</file>
+  </qresource>
+</RCC>

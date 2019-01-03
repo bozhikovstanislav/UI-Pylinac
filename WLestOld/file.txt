@@ -1,0 +1,16 @@
+
+Winston-Lutz Analysis
+
+Number of images: 24
+Maximum 2D CAX->BB distance: 0.67mm
+Median 2D CAX->BB distance: 0.33mm
+Gantry 3D isocenter diameter: 0.65mm
+Gantry iso->BB vector: Vector(x=-0.09, y=-0.23, z=-0.01)
+Maximum Gantry RMS deviation (mm): 0.52mm
+Maximum EPID RMS deviation (mm): 0.51mm
+Collimator 2D isocenter diameter: 0.91mm
+Collimator 2D iso->BB vector: Vector(x=-0.17, y=0.12, z=0.00)
+Maximum Collimator RMS deviation (mm): 0.67
+Couch 2D isocenter diameter: 0.38mm
+Couch 2D iso->BB vector: Vector(x=0.09, y=-0.09, z=0.00)
+Maximum Couch RMS deviation (mm): 0.37

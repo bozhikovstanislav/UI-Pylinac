@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="51a00e0d-7a35-40ae-9bf8-aaf16e6e8c7a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/DataBaseLib.dll" afterPath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/DataBaseLib.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/DataBaseLib.pdb" afterPath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/DataBaseLib.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/EnvDTE.dll" afterPath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/EnvDTE.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/EnvDTE80.dll" afterPath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/EnvDTE80.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/FirstPatientCalendar.exe" afterPath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/FirstPatientCalendar.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/FirstPatientCalendar.pdb" afterPath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/FirstPatientCalendar.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/Microsoft.SqlServer.Types.dll" afterPath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/Microsoft.SqlServer.Types.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/Microsoft.VisualStudio.ProjectAggregator.dll" afterPath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/Microsoft.VisualStudio.ProjectAggregator.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/Microsoft.VisualStudio.VSHelp.dll" afterPath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/Microsoft.VisualStudio.VSHelp.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/VSLangProj.dll" afterPath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/VSLangProj.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/VSLangProj2.dll" afterPath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/VSLangProj2.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/VSLangProj80.dll" afterPath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/VSLangProj80.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/de/Microsoft.SqlServer.Types.resources.dll" afterPath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/de/Microsoft.SqlServer.Types.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/es/Microsoft.SqlServer.Types.resources.dll" afterPath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/es/Microsoft.SqlServer.Types.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/fr/Microsoft.SqlServer.Types.resources.dll" afterPath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/fr/Microsoft.SqlServer.Types.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/it/Microsoft.SqlServer.Types.resources.dll" afterPath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/it/Microsoft.SqlServer.Types.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/ja/Microsoft.SqlServer.Types.resources.dll" afterPath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/ja/Microsoft.SqlServer.Types.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/ko/Microsoft.SqlServer.Types.resources.dll" afterPath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/ko/Microsoft.SqlServer.Types.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/pt/Microsoft.SqlServer.Types.resources.dll" afterPath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/pt/Microsoft.SqlServer.Types.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/ru/Microsoft.SqlServer.Types.resources.dll" afterPath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/ru/Microsoft.SqlServer.Types.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/stdole.dll" afterPath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/stdole.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/zh-HANS/Microsoft.SqlServer.Types.resources.dll" afterPath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/zh-HANS/Microsoft.SqlServer.Types.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/zh-HANT/Microsoft.SqlServer.Types.resources.dll" afterPath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/zh-HANT/Microsoft.SqlServer.Types.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FirstPatientCalendar/obj/Debug/DesignTimeResolveAssemblyReferences.cache" afterPath="$PROJECT_DIR$/../FirstPatientCalendar/obj/Debug/DesignTimeResolveAssemblyReferences.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FirstPatientCalendar/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterPath="$PROJECT_DIR$/../FirstPatientCalendar/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FirstPatientCalendar/obj/Debug/FirstPatientCalendar.csproj.GenerateResource.Cache" afterPath="$PROJECT_DIR$/../FirstPatientCalendar/obj/Debug/FirstPatientCalendar.csproj.GenerateResource.Cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FirstPatientCalendar/obj/Debug/FirstPatientCalendar.csprojResolveAssemblyReference.cache" afterPath="$PROJECT_DIR$/../FirstPatientCalendar/obj/Debug/FirstPatientCalendar.csprojResolveAssemblyReference.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FirstPatientCalendar/obj/Debug/FirstPatientCalendar.exe" afterPath="$PROJECT_DIR$/../FirstPatientCalendar/obj/Debug/FirstPatientCalendar.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FirstPatientCalendar/obj/Debug/FirstPatientCalendar.pdb" afterPath="$PROJECT_DIR$/../FirstPatientCalendar/obj/Debug/FirstPatientCalendar.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PlaningCalendar/bin/Debug/DataBaseLib.dll" afterPath="$PROJECT_DIR$/../PlaningCalendar/bin/Debug/DataBaseLib.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PlaningCalendar/bin/Debug/DataBaseLib.pdb" afterPath="$PROJECT_DIR$/../PlaningCalendar/bin/Debug/DataBaseLib.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PlaningCalendar/bin/Debug/MachineProblems.exe" afterPath="$PROJECT_DIR$/../PlaningCalendar/bin/Debug/MachineProblems.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PlaningCalendar/bin/Debug/MachineProblems.pdb" afterPath="$PROJECT_DIR$/../PlaningCalendar/bin/Debug/MachineProblems.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PlaningCalendar/obj/Debug/DesignTimeResolveAssemblyReferences.cache" afterPath="$PROJECT_DIR$/../PlaningCalendar/obj/Debug/DesignTimeResolveAssemblyReferences.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PlaningCalendar/obj/Debug/MachineProblems.csproj.GenerateResource.cache" afterPath="$PROJECT_DIR$/../PlaningCalendar/obj/Debug/MachineProblems.csproj.GenerateResource.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PlaningCalendar/obj/Debug/MachineProblems.csprojResolveAssemblyReference.cache" afterPath="$PROJECT_DIR$/../PlaningCalendar/obj/Debug/MachineProblems.csprojResolveAssemblyReference.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PlaningCalendar/obj/Debug/MachineProblems.exe" afterPath="$PROJECT_DIR$/../PlaningCalendar/obj/Debug/MachineProblems.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PlaningCalendar/obj/Debug/MachineProblems.pdb" afterPath="$PROJECT_DIR$/../PlaningCalendar/obj/Debug/MachineProblems.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PlaningCalendar/obj/Debug/PlaningCalendar.Main.resources" afterPath="$PROJECT_DIR$/../PlaningCalendar/obj/Debug/PlaningCalendar.Main.resources" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProblemDiary/Debug/ProblemDiary.msi" afterPath="$PROJECT_DIR$/../ProblemDiary/Debug/ProblemDiary.msi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProblemDiary/Debug/setup.exe" afterPath="$PROJECT_DIR$/../ProblemDiary/Debug/setup.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SetupPostgres/Debug/SetupPostgres.msi" afterPath="$PROJECT_DIR$/../SetupPostgres/Debug/SetupPostgres.msi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Trajectory_Log_Parser/bin/Debug/Trajectory_Log_Parser.dll" afterPath="$PROJECT_DIR$/../Trajectory_Log_Parser/bin/Debug/Trajectory_Log_Parser.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Trajectory_Log_Parser/bin/Debug/Trajectory_Log_Parser.pdb" afterPath="$PROJECT_DIR$/../Trajectory_Log_Parser/bin/Debug/Trajectory_Log_Parser.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DataBaseLib/DAL/SingeltonTransfer.cs" afterPath="$PROJECT_DIR$/../DataBaseLib/DAL/SingeltonTransfer.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DataBaseLib/Database/DataSet1.Designer.cs" afterPath="$PROJECT_DIR$/../DataBaseLib/Database/DataSet1.Designer.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DataBaseLib/Database/DataSet1.xsd" afterPath="$PROJECT_DIR$/../DataBaseLib/Database/DataSet1.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DataBaseLib/Database/DataSet1.xss" afterPath="$PROJECT_DIR$/../DataBaseLib/Database/DataSet1.xss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DataBaseLib/Database/DataSet111.Designer.cs" afterPath="$PROJECT_DIR$/../DataBaseLib/Database/DataSet111.Designer.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FirstPatientCalendar/FirstPatientCalendar.csproj" afterPath="$PROJECT_DIR$/../FirstPatientCalendar/FirstPatientCalendar.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FirstPatientCalendar/Main.Designer.cs" afterPath="$PROJECT_DIR$/../FirstPatientCalendar/Main.Designer.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FirstPatientCalendar/Main.cs" afterPath="$PROJECT_DIR$/../FirstPatientCalendar/Main.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/Devart.Data.xml" afterPath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/Devart.Data.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/items.xml" afterPath="$PROJECT_DIR$/../FirstPatientCalendar/bin/Debug/items.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FirstPatientCalendar/obj/Debug/FirstPatientCalendar.csproj.CoreCompileInputs.cache" afterPath="$PROJECT_DIR$/../FirstPatientCalendar/obj/Debug/FirstPatientCalendar.csproj.CoreCompileInputs.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FirstPatientCalendar/obj/Debug/FirstPatientCalendar.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/../FirstPatientCalendar/obj/Debug/FirstPatientCalendar.csproj.FileListAbsolute.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PlaningCalendar/EndEvent.Designer.cs" afterPath="$PROJECT_DIR$/../PlaningCalendar/EndEvent.Designer.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PlaningCalendar/EndEvent.cs" afterPath="$PROJECT_DIR$/../PlaningCalendar/EndEvent.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PlaningCalendar/UserControls/MAchineProblems.Designer.cs" afterPath="$PROJECT_DIR$/../PlaningCalendar/UserControls/MAchineProblems.Designer.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PlaningCalendar/UserControls/MAchineProblems.cs" afterPath="$PROJECT_DIR$/../PlaningCalendar/UserControls/MAchineProblems.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProblemDiary/ProblemDiary.vdproj" afterPath="$PROJECT_DIR$/../ProblemDiary/ProblemDiary.vdproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SetupPostgres/SetupPostgres.vdproj" afterPath="$PROJECT_DIR$/../SetupPostgres/SetupPostgres.vdproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WLTestData/Icon/UserControls/CheckListPrint.cs" afterPath="$PROJECT_DIR$/../WLTestData/Icon/UserControls/CheckListPrint.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WLTestData/Icon/UserControls/PlaninPatients.cs" afterPath="$PROJECT_DIR$/../WLTestData/Icon/UserControls/PlaninPatients.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WLTestData/Icon/UserControls/PlanningPhysicist.cs" afterPath="$PROJECT_DIR$/../WLTestData/Icon/UserControls/PlanningPhysicist.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WLTestData/Icon/UserControls/Replanirane.cs" afterPath="$PROJECT_DIR$/../WLTestData/Icon/UserControls/Replanirane.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WLTestData/Icon/UserControls/Replanning.Designer.cs" afterPath="$PROJECT_DIR$/../WLTestData/Icon/UserControls/Replanning.Designer.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WLTestData/Icon/UserControls/Replanning.cs" afterPath="$PROJECT_DIR$/../WLTestData/Icon/UserControls/Replanning.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WLTestData/Icon/UserControls/Report_Check.rdlc" afterPath="$PROJECT_DIR$/../WLTestData/Icon/UserControls/Report_Check.rdlc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WLTestData/QaTasksForTheDay.Designer.cs" afterPath="$PROJECT_DIR$/../WLTestData/QaTasksForTheDay.Designer.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WLTestData/QaTasksForTheDay.cs" afterPath="$PROJECT_DIR$/../WLTestData/QaTasksForTheDay.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WLTestData/Setup.Designer.cs" afterPath="$PROJECT_DIR$/../WLTestData/Setup.Designer.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WLTestData/Setup.cs" afterPath="$PROJECT_DIR$/../WLTestData/Setup.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WLTestData/Setup.resx" afterPath="$PROJECT_DIR$/../WLTestData/Setup.resx" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/WinstonLutsTest$main.coverage" NAME="main Coverage Results" MODIFIED="1499678819344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2442">
+              <caret line="74" column="8" lean-forward="false" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="55" />
+              <folding>
+                <element signature="e#21#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Window.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Window.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="file.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/file.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="decorators.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pylinac/core/decorators.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2277">
+              <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>plot_sum</find>
+      <find>epid_</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/file.txt" />
+        <option value="$USER_HOME$/Anaconda3/Lib/site-packages/pylinac/winston_lutz.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="166" />
+    <option name="y" value="282" />
+    <option name="width" value="1424" />
+    <option name="height" value="1088" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WinstonLutsTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WinstonLutsTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WinstonLutsTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="WinstonLutsTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.5.2 (C:\Users\sunsl\Anaconda3\python.exe) &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../PycharmProjects/untitled7" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="WinstonLutsTest" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="WinstonLutsTest" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="WinstonLutsTest" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="WinstonLutsTest" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="WinstonLutsTest" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="WinstonLutsTest" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="WinstonLutsTest" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="WinstonLutsTest" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51a00e0d-7a35-40ae-9bf8-aaf16e6e8c7a" name="Default" comment="" />
+      <created>1499542493893</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1499542493893</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-4" y="-4" width="1846" height="1088" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29438204" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21059602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3722795" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/Anaconda3/Lib/site-packages/pylinac/winston_lutz.py</url>
+          <line>241</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/Anaconda3/Lib/site-packages/pylinac/winston_lutz.py</url>
+          <line>567</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="25" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pylinac/core/decorators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2070">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#21#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Window.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pylinac/core/decorators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2070">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#21#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Window.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pylinac/core/decorators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2070">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#21#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Window.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pylinac/core/decorators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2070">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2040">
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding>
+            <element signature="e#21#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pylinac/core/decorators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2070">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pylinac/winston_lutz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3540">
+          <caret line="129" column="16" lean-forward="false" selection-start-line="129" selection-start-column="16" selection-end-line="129" selection-end-column="16" />
+          <folding>
+            <element signature="e#21#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9570">
+          <caret line="319" column="0" lean-forward="false" selection-start-line="319" selection-start-column="0" selection-end-line="319" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pylinac/core/geometry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pylinac/core/decorators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2070">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/inspect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87540">
+          <caret line="2918" column="0" lean-forward="false" selection-start-line="2918" selection-start-column="0" selection-end-line="2918" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pylinac/winston_lutz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12120">
+          <caret line="422" column="52" lean-forward="false" selection-start-line="422" selection-start-column="52" selection-end-line="422" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/pkgs/pylinac-1.9.0-py35_0/Lib/site-packages/pylinac/winston_lutz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="363" column="6" lean-forward="false" selection-start-line="363" selection-start-column="3" selection-end-line="378" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/os.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="410" column="0" lean-forward="false" selection-start-line="410" selection-start-column="0" selection-end-line="410" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/ntpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pylinac/core/io.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="1277" column="0" lean-forward="false" selection-start-line="1277" selection-start-column="0" selection-end-line="1277" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/dicom/UID.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/dicom/filereader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="304" column="0" lean-forward="false" selection-start-line="304" selection-start-column="0" selection-end-line="304" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/matplotlib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="953" column="0" lean-forward="false" selection-start-line="953" selection-start-column="0" selection-end-line="953" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="491" column="0" lean-forward="false" selection-start-line="491" selection-start-column="0" selection-end-line="491" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/_bootlocale.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/dicom/dataelem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/dicom/datadict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/dicom/tag.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/dicom/dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pylinac/core/image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="715" column="0" lean-forward="false" selection-start-line="715" selection-start-column="0" selection-end-line="715" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pylinac/core/geometry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/inspect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="2918" column="0" lean-forward="false" selection-start-line="2918" selection-start-column="0" selection-end-line="2918" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="266" column="0" lean-forward="false" selection-start-line="266" selection-start-column="0" selection-end-line="266" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.1/system/python_stubs/-875602288/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="167" column="4" lean-forward="false" selection-start-line="167" selection-start-column="4" selection-end-line="167" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/colorama/ansitowin32.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pylinac/core/utilities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pylinac/core/decorators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2277">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pylinac/winston_lutz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210">
+          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Window.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2442">
+          <caret line="74" column="8" lean-forward="false" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="55" />
+          <folding>
+            <element signature="e#21#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

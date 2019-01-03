@@ -1,0 +1,1 @@
+C:\Users\Varian.ARIA\AppData\Local\Continuum\anaconda3\python.exe main.py

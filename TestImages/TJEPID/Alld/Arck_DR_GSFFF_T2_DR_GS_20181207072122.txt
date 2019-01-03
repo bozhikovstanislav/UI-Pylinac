@@ -1,0 +1,54 @@
+Patient ID:	Arck
+Plan Name:	DR_GSFFF
+Plan UID:	1.2.246.352.71.5.545096603471.33991.20180608131342
+Beam Number :	0
+Beam Name :	T2_DR_GS
+Original MU :	480
+
+Logging Scale :	IEC 1217
+X1 (Cms):	-9.20
+X2 (Cms):	+9.20
+Y1 (Cms):	-10.00
+Y2 (Cms):	+10.00
+Gantry Rotation Angle (deg):	120.86
+Energy :	6xFFF
+MU1 :	43.26
+MU2 :	43.27
+Radiation Time (mins):	0.031
+DoseRate (MU/min):	250.70
+PFN High Voltage Power Supply Current (A):	2.004196
+PFN Actual Voltage (KV):	18.36566
+RF Driver Voltage (V):	3.428
+RF Forward Power (W):	1.437073
+AFC Error (V):	-0.0001428606
+Gun Current (A):	0.440506
+Gun High Voltage (V):	-15940
+Gun Grid Voltage (V):	113.9888
+Gun Filament Step Voltage (V):	5.399994
+Gun Filament Voltage (V):	5.515823
+Bend Magnet Current (A):	15.73181
+Bend Magnet Voltage (V):	2.184448
+Accelerator Solenoid Current (A):	34.98993
+Klystron Solenoid Current (A):	39.00299
+Radial Symmetry (%):	0.04910771
+Transverse Symmetry (%):	0.0033943
+Target Current (nC):	-0.02163108
+Buncher Radial Current (A):	0.04023743
+Buncher Transverse Current (A):	0.01501465
+Angle Radial Current (A):	0.05921936
+Angle Transverse Current (A):	-0.00982666
+Position Radial Current (A):	-1.218552
+Position Transverse Current (A):	0.1708984
+Trim : (A)	-0.04881287
+Accelerator Vacion Current (uA):	0.0001525879
+Positive 5V dc:	4.994912
+Positive 24V dc:	23.49955
+Analog Negative 5V dc:	5.063993
+Analog Positive 5V dc:	4.95657
+Negative 12V dc:	12.26103
+Positive 3V dc:	3.283583
+Node Power Supply Voltage (V):	23.63265
+Water Level :	Normal
+City Water Temperature (deg C):	10.67978
+Internal Water Supply Temperature (deg C):	39.72401
+Gas Pressure (PSI):	30.65137

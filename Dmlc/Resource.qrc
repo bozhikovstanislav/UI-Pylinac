@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="Icones">
+    <file>freeplane.png</file>
+    <file>d4x.png</file>
+    <file>emblem-advertisement-dollar.png</file>
+    <file>distributions-lea_linux.png</file>
+    <file>licq-2.ico</file>
+  </qresource>
+</RCC>

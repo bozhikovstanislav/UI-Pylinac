@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="Icones">
+    <file>distributions-lea_linux.png</file>
+    <file>licq-2.ico</file>
+  </qresource>
+</RCC>

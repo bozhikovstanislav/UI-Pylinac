@@ -1,0 +1,54 @@
+Patient ID:	Arck
+Plan Name:	MLCSpeedFFF
+Plan UID:	1.2.246.352.71.5.545096603471.33915.20180608085939
+Beam Number :	0
+Beam Name :	T3MLCSpeed
+Original MU :	440
+
+Logging Scale :	IEC 1217
+X1 (Cms):	-6.00
+X2 (Cms):	+6.00
+Y1 (Cms):	-10.00
+Y2 (Cms):	+10.00
+Gantry Rotation Angle (deg):	141.06
+Energy :	6xFFF
+MU1 :	210.67
+MU2 :	210.75
+Radiation Time (mins):	0.151
+DoseRate (MU/min):	1393.47
+PFN High Voltage Power Supply Current (A):	2.007736
+PFN Actual Voltage (KV):	18.44762
+RF Driver Voltage (V):	3.428
+RF Forward Power (W):	1.427917
+AFC Error (V):	-0.04858718
+Gun Current (A):	0.4152985
+Gun High Voltage (V):	-15940
+Gun Grid Voltage (V):	113.9888
+Gun Filament Step Voltage (V):	5.399994
+Gun Filament Voltage (V):	5.515823
+Bend Magnet Current (A):	15.72876
+Bend Magnet Voltage (V):	2.191772
+Accelerator Solenoid Current (A):	34.98688
+Klystron Solenoid Current (A):	38.99994
+Radial Symmetry (%):	0.0054874
+Transverse Symmetry (%):	0.00146533
+Target Current (nC):	352.0176
+Buncher Radial Current (A):	0.03994751
+Buncher Transverse Current (A):	0.01504517
+Angle Radial Current (A):	0.06871033
+Angle Transverse Current (A):	-0.01295471
+Position Radial Current (A):	-1.119263
+Position Transverse Current (A):	0.1890869
+Trim : (A)	-0.04899597
+Accelerator Vacion Current (uA):	0.0001525879
+Positive 5V dc:	4.993811
+Positive 24V dc:	23.49656
+Analog Negative 5V dc:	5.064422
+Analog Positive 5V dc:	4.956884
+Negative 12V dc:	12.26012
+Positive 3V dc:	3.284518
+Node Power Supply Voltage (V):	23.63265
+Water Level :	Normal
+City Water Temperature (deg C):	9.430691
+Internal Water Supply Temperature (deg C):	39.74792
+Gas Pressure (PSI):	30.80274
