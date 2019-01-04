@@ -23,7 +23,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         fileName, _ = QFileDialog.getOpenFileName(self, "QFileDialog.getOpenFileName()", "",
                                                   "All Files (*);;DICOM Files (*.dcm)", options=options)
         if fileName:
-            leeds = PicketFence(fileName,log="RAQA_PF_RA_20190103124719.bin")
+            leeds = PicketFence(fileName)
             # leeds = PicketFence(fileName, filter=1)
             #leeds.analyze(tolerance=0.2, action_tolerance=0.03, hdmlc=True, invert=False)
             leeds.analyze(tolerance=0.2, action_tolerance=0.1, hdmlc=True,)
