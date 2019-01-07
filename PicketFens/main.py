@@ -11,39 +11,47 @@ from PicketFens import Ui_MainWindow
 
 class MainWindow(QMainWindow, Ui_MainWindow):
     """MainWindow inherits QMainWindow"""
+    _pathDir: str
 
-    def __init__(self, parent=None):
+    def __init__(self, parent=None, pathDir=None):
         super(MainWindow, self).__init__(parent)
-        self.ui = Ui_MainWindow()
+        assert isinstance(pathDir, object)
+        self._pathDir=pathDir
+        self.ui=Ui_MainWindow()
         self.ui.setupUi(self)
+    @property
+    def pathDir(self):
+        return getattr(self, '_pathDir')
 
-    def OpenFile(self):
-        options = QFileDialog.Options()
-        options |= QFileDialog.DontUseNativeDialog
-        fileName, _ = QFileDialog.getOpenFileName(self, "QFileDialog.getOpenFileName()", "",
-                                                  "All Files (*);;DICOM Files (*.dcm)", options=options)
+    @pathDir.setter
+    def pathDir(self, pathDir):
+        self._pathDir=pathDir
+
+    def OpenFile(self, textparam):
+        options=QFileDialog.Options()
+        options|=QFileDialog.DontUseNativeDialog
+        fileName, _=QFileDialog.getOpenFileName(self, "QFileDialog.getOpenFileName()", "",
+                                                "All Files (*);;DICOM Files (*.dcm)", options=options)
+
         if fileName:
-            leeds = PicketFence(fileName)
-            # leeds = PicketFence(fileName, filter=1)
-            #leeds.analyze(tolerance=0.2, action_tolerance=0.03, hdmlc=True, invert=False)
-            leeds.analyze(tolerance=0.2, action_tolerance=0.1, hdmlc=True,)
-            print(leeds.results())
+            MainWindow.pathDir=fileName;
+            leeds=PicketFence(fileName)
+            leeds.analyze(tolerance=0.15, action_tolerance=0.03,hdmlc=True)
             leeds.plot_analyzed_image()
-            leeds.save_analyzed_image("image.jpg")
-            leeds.publish_pdf(fileName + '.pdf')
+            leeds.publish_pdf(MainWindow.pathDir + '.pdf', metadata={"name": textparam, "unit": "TrueBeam STX"})
 
     def __del__(self):
-        self.ui = None
+        self.ui=None
 
 
 # -----------------------------------------------------#
 if __name__ == '__main__':
     # create application
-    app = QApplication(sys.argv)
+    app=QApplication(sys.argv)
     app.setApplicationName('PicketFens')
-
+    w=MainWindow()
     # create widget
-    w = MainWindow()
+    #w=MainWindow()
     w.setWindowTitle('PicketFens')
     w.show()
 

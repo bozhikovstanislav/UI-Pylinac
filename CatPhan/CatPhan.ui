@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>334</width>
-    <height>332</height>
+    <width>536</width>
+    <height>468</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,8 +17,8 @@
    <widget class="QPushButton" name="pushButton_OpenGFile">
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>200</y>
+      <x>150</x>
+      <y>350</y>
       <width>181</width>
       <height>61</height>
      </rect>
@@ -37,7 +37,7 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>80</x>
+      <x>130</x>
       <y>20</y>
       <width>251</width>
       <height>171</height>
@@ -51,6 +51,21 @@
     </property>
     <property name="text">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/Icones/development-gtk.ico&quot;/&gt;&lt;img src=&quot;:/Icones/amule.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>240</y>
+      <width>451</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>30</pointsize>
+     </font>
     </property>
    </widget>
   </widget>

@@ -5,16 +5,20 @@ import sys
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5 import QtCore
-from pylinac import VMAT
+from pylinac import vmat
 from dmlc import Ui_MainWindow
+from pylinac.vmat import DMLC
 
 
 class DirectoryPath(object):
+    _pathDir: str
+
     def __init__(self, pathDir, getCountImages):
-        self._pathDir = pathDir
-        self._fieldOpenPathfile = ""
-        self._dmlcopenfilenamepath = ""
-        self._getCountImages = getCountImages
+        assert isinstance(pathDir, object)
+        self._pathDir=pathDir
+        self._fieldOpenPathfile=""
+        self._dmlcopenfilenamepath=""
+        self._getCountImages=getCountImages
 
     @property
     def pathDir(self):
@@ -22,7 +26,7 @@ class DirectoryPath(object):
 
     @pathDir.setter
     def pathDir(self, pathDir):
-        self._pathDir = pathDir
+        self._pathDir=pathDir
 
     @property
     def fieldOpenPathfile(self):
@@ -30,7 +34,7 @@ class DirectoryPath(object):
 
     @fieldOpenPathfile.setter
     def fieldOpenPathfile(self, fieldOpenPathfile):
-        self._fieldOpenPathfile = fieldOpenPathfile
+        self._fieldOpenPathfile=fieldOpenPathfile
 
     @property
     def dmlcopenfilenamepath(self):
@@ -38,7 +42,7 @@ class DirectoryPath(object):
 
     @dmlcopenfilenamepath.setter
     def dmlcopenfilenamepath(self, dmlcopenfilenamepath):
-        self._dmlcopenfilenamepath = dmlcopenfilenamepath
+        self._dmlcopenfilenamepath=dmlcopenfilenamepath
 
 
 class MainWindow(QMainWindow, Ui_MainWindow):
@@ -46,65 +50,62 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
     def __init__(self, parent: object = None) -> object:
         super(MainWindow, self).__init__(parent)
-        self.ui = Ui_MainWindow()
+        self.ui=Ui_MainWindow()
         self.ui.setupUi(self)
 
-
     def openFileNameDialog(self):
-        options = QFileDialog.Options()
-        options |= QFileDialog.DontUseNativeDialog
-        fileName, _ = QFileDialog.getOpenFileName(self, "QFileDialog.getOpenFileName()", "",
-                                                  "All Files (*);;Python Files (*.py)", options=options)
+        options=QFileDialog.Options()
+        options|=QFileDialog.DontUseNativeDialog
+        fileName, _=QFileDialog.getOpenFileName(self, "QFileDialog.getOpenFileName()", "",
+                                                "All Files (*);;Python Files (*.py)", options=options)
         if fileName:
             print(fileName)
 
     def OpenDialog(self):
-        options = QFileDialog.Options()
-        options |= QFileDialog.DontUseNativeDialog
-        fileName, _ = QFileDialog.getOpenFileName(self, "QFileDialog.getOpenFileName()", "",
-                                                  "All Files (*);;DICOM Files (*.dcm)", options=options)
+        options=QFileDialog.Options()
+        options|=QFileDialog.DontUseNativeDialog
+        fileName, _=QFileDialog.getOpenFileName(self, "QFileDialog.getOpenFileName()", "",
+                                                "All Files (*);;DICOM Files (*.dcm)", options=options)
         if fileName:
-            DirectoryPath.fieldOpenPathfile = fileName
+            DirectoryPath.fieldOpenPathfile=fileName
 
     def OpenDmlcFiles(self):
-        options = QFileDialog.Options()
-        options |= QFileDialog.DontUseNativeDialog
-        fileName, _ = QFileDialog.getOpenFileName(self, "QFileDialog.getOpenFileName()", "",
-                                                  "All Files (*);;DICOM Files (*.dcm)", options=options)
+        options=QFileDialog.Options()
+        options|=QFileDialog.DontUseNativeDialog
+        fileName, _=QFileDialog.getOpenFileName(self, "QFileDialog.getOpenFileName()", "",
+                                                "All Files (*);;DICOM Files (*.dcm)", options=options)
         if fileName:
-            DirectoryPath.dmlcopenfilenamepath = fileName
+            DirectoryPath.dmlcopenfilenamepath=fileName
 
     def DmlcCalculations(self, cal1, cal2, textparam):
         if cal1:
-            leeds = VMAT(images=[DirectoryPath.fieldOpenPathfile, DirectoryPath.dmlcopenfilenamepath],
-                         delivery_types=['open', 'dmlc'])
-            leeds.analyze(test='drmlc', tolerance=1.3, x_offset=0)
-            leeds.plot_analyzed_subimage('profile')
-            leeds.save_analyzed_subimage('myprofile.png', subimage='profile')
-            print(leeds.return_results())
-            leeds.plot_analyzed_image()
-            leeds.publish_pdf(DirectoryPath.dmlcopenfilenamepath + '.pdf')
+            open=DirectoryPath.fieldOpenPathfile
+            field=DirectoryPath.dmlcopenfilenamepath
+            dmlscall=vmat.DRMLC(image_paths=(open,field))
+            dmlscall.analyze(tolerance=1.3)
+            dmlscall.plot_analyzed_image('profile')
+            print(dmlscall.results())
+            dmlscall.plot_analyzed_image()
+            dmlscall.publish_pdf(DirectoryPath.dmlcopenfilenamepath + '.pdf',metadata={"name":textparam,"unit":"TrueBeam STX"})
         if cal2:
-            drgs = VMAT(images=[DirectoryPath.fieldOpenPathfile, DirectoryPath.dmlcopenfilenamepath],
-                        delivery_types=['open', 'drgs'])
-            drgs.analyze(test='drgs', tolerance=1.3, x_offset=10)
-            drgs.save_analyzed_subimage('myprofiledrgs.png', subimage='profile')
-            print(drgs.return_results())
+            drgs=vmat.DRGS([str(DirectoryPath.fieldOpenPathfile), str(DirectoryPath.dmlcopenfilenamepath)])
+            drgs.analyze(tolerance=1.3)
+            print(drgs.results())
             drgs.plot_analyzed_image()
-            drgs.publish_pdf(DirectoryPath.dmlcopenfilenamepath + 'drgs' + '.pdf', author=textparam, unit="TrueBeamSTX")
+            drgs.publish_pdf(DirectoryPath.dmlcopenfilenamepath + 'drgs' + '.pdf', metadata={"name":textparam,"unit":"TrueBeam STX"})
 
     def __del__(self):
-        self.ui = None
+        self.ui=None
 
 
 # -----------------------------------------------------#
 if __name__ == '__main__':
     # create application
-    app = QApplication(sys.argv)
+    app=QApplication(sys.argv)
     app.setApplicationName('Dmlc')
-    d = DirectoryPath(pathDir="", getCountImages=0)
+    d=DirectoryPath(pathDir="", getCountImages=0)
     # create widget
-    w = MainWindow()
+    w=MainWindow()
     w.setWindowTitle('Dmlc')
     w.show()
 

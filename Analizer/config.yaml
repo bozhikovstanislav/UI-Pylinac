@@ -42,9 +42,9 @@ logs:
     - .bin
   analysis:  # analysis settings; see each module's analyze() method for parameter options.
              # Keywords must match the analyze() method keyword arguments exactly.
-    doseTA: 2
-    distTA: 2
-    threshold: 0.00000001
+    doseTA: 0.2
+    distTA: 0.2
+    threshold: 0.01
     resolution: 0.1
   failure:  # what constitutes a "failure" in analysis
     gamma: 95  # gamma below this value triggers a failure

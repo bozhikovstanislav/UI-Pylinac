@@ -1,2 +1,2 @@
-C:\Users\Varian.ARIA\AppData\Local\Continuum\anaconda3\python main.py
+D:\env\Scripts\python main.py
 pause

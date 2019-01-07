@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'TorTor.ui'
+# Form implementation generated from reading ui file '/home/stanislav/PycharmProjects/LasVegas/TorTor.ui'
 #
-# Created by: PyQt5 UI code generator 5.6
+# Created by: PyQt5 UI code generator 5.10.1
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -11,12 +11,12 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(501, 331)
+        MainWindow.resize(501, 432)
         MainWindow.setAutoFillBackground(False)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.pushButton = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton.setGeometry(QtCore.QRect(30, 220, 441, 91))
+        self.pushButton.setGeometry(QtCore.QRect(20, 300, 441, 91))
         font = QtGui.QFont()
         font.setPointSize(20)
         self.pushButton.setFont(font)
@@ -54,10 +54,16 @@ class Ui_MainWindow(object):
         self.label_6.setText("")
         self.label_6.setPixmap(QtGui.QPixmap(":/Icones/kstars.png"))
         self.label_6.setObjectName("label_6")
+        self.lineEdit = QtWidgets.QLineEdit(self.centralwidget)
+        self.lineEdit.setGeometry(QtCore.QRect(20, 220, 441, 71))
+        font = QtGui.QFont()
+        font.setPointSize(30)
+        self.lineEdit.setFont(font)
+        self.lineEdit.setObjectName("lineEdit")
         MainWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(MainWindow)
-        self.pushButton.clicked.connect(MainWindow.OpenDialog)
+        self.pushButton.clicked.connect(lambda :MainWindow.OpenDialog(self.lineEdit.text()))
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):

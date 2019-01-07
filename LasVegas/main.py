@@ -37,7 +37,7 @@ class MainWindow(QMainWindow,Ui_MainWindow):
         if fileName:
             print(fileName)
 
-    def OpenDialog(self):
+    def OpenDialog(self,textparam):
         options = QFileDialog.Options()
         options |= QFileDialog.DontUseNativeDialog
         fileName, _ = QFileDialog.getOpenFileName(self, "QFileDialog.getOpenFileName()", "",
@@ -46,7 +46,7 @@ class MainWindow(QMainWindow,Ui_MainWindow):
             leeds = LasVegas(fileName)
             leeds.analyze(low_contrast_threshold=0.35,invert=True)
             leeds.plot_analyzed_image(True,True)
-            leeds.publish_pdf(fileName.title()+'.pdf')
+            leeds.publish_pdf(fileName+'.pdf',metadata={"name":textparam,"unit":"TrueBeam stx"})
 
     def HightContrast(self):
         leeds = LasVegas(d.pathDir)

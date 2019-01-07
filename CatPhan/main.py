@@ -11,9 +11,10 @@ from PyQt5 import QtCore
 from CatPhan import Ui_MainWindow
 from pylinac import CatPhan504
 
+
 class DirectoryPath(object):
-    def __init__(self, pathDir,getCountImages):
-        self._pathDir = pathDir
+    def __init__(self, pathDir, getCountImages):
+        self._pathDir=pathDir
         self._getCountImages=getCountImages
 
     @property
@@ -22,42 +23,41 @@ class DirectoryPath(object):
 
     @pathDir.setter
     def pathDir(self, pathDir):
-        self._pathDir = pathDir
+        self._pathDir=pathDir
 
 
-class MainWindow(QMainWindow,Ui_MainWindow):
+class MainWindow(QMainWindow, Ui_MainWindow):
     """MainWindow inherits QMainWindow"""
 
     def __init__(self, parent=None):
-        super(MainWindow,self).__init__(parent)
-        self.ui = Ui_MainWindow()
+        super(MainWindow, self).__init__(parent)
+        self.ui=Ui_MainWindow()
         self.ui.setupUi(self)
 
-    def OpenDirectory(self):
-        directory = QFileDialog.getExistingDirectory(self, 'Select backup directory')
-        win_directory = QtCore.QDir.toNativeSeparators(directory)
+    def OpenDirectory(self, textparam):
+        directory=QFileDialog.getExistingDirectory(self, 'Select backup directory')
+        win_directory=QtCore.QDir.toNativeSeparators(directory)
         d.pathDir=win_directory
 
         mycbct=CatPhan504(win_directory)
         mycbct.analyze()
         mycbct.plot_analyzed_subimage('linearity')
         mycbct.save_analyzed_subimage('linearity.png', subimage='linearity')
-        mycbct.publish_pdf(d.pathDir+'\\result.pdf')
-
+        mycbct.publish_pdf(d.pathDir + '\\result.pdf', metadata={"name": textparam, "unit": "TrueBeam STX"})
 
     def __del__(self):
-        self.ui = None
+        self.ui=None
 
 
-#-----------------------------------------------------#
+# -----------------------------------------------------#
 if __name__ == '__main__':
     # create application
-    app = QApplication(sys.argv)
+    app=QApplication(sys.argv)
     app.setApplicationName('CatPhan')
 
-    d = DirectoryPath(pathDir="", getCountImages=0)
+    d=DirectoryPath(pathDir="", getCountImages=0)
     # create widget
-    w = MainWindow()
+    w=MainWindow()
     w.setWindowTitle('CatPhan')
     w.show()
 

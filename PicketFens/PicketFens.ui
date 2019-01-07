@@ -6,9 +6,14 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>365</width>
-    <height>420</height>
+    <width>423</width>
+    <height>526</height>
    </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>19</pointsize>
+   </font>
   </property>
   <property name="windowTitle">
    <string>Form1</string>
@@ -17,10 +22,10 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>280</y>
-      <width>191</width>
-      <height>101</height>
+      <x>30</x>
+      <y>400</y>
+      <width>341</width>
+      <height>81</height>
      </rect>
     </property>
     <property name="font">
@@ -47,6 +52,24 @@
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/Icons/festastic.ico&quot;/&gt;&lt;img src=&quot;:/Icons/kompare-2.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>290</y>
+      <width>341</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ubuntu</family>
+      <pointsize>30</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
   </widget>
  </widget>
  <resources>
@@ -66,6 +89,22 @@
     <hint type="destinationlabel">
      <x>330</x>
      <y>233</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>OpenFile()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>282</x>
+     <y>441</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>397</x>
+     <y>390</y>
     </hint>
    </hints>
   </connection>

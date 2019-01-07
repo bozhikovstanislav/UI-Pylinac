@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>501</width>
-    <height>331</height>
+    <height>432</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,8 +20,8 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>220</y>
+      <x>20</x>
+      <y>300</y>
       <width>441</width>
       <height>91</height>
      </rect>
@@ -133,6 +133,21 @@
     </property>
     <property name="pixmap">
      <pixmap resource="Resource.qrc">:/Icones/kstars.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>220</y>
+      <width>441</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>30</pointsize>
+     </font>
     </property>
    </widget>
   </widget>

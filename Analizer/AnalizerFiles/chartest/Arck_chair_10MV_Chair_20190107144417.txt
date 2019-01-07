@@ -1,0 +1,54 @@
+Patient ID:	Arck
+Plan Name:	chair_10MV
+Plan UID:	1.2.246.352.71.5.545096603471.43207.20190107105302
+Beam Number :	1
+Beam Name :	Chair
+Original MU :	309.271389535295
+
+Logging Scale :	IEC 1217
+X1 (Cms):	-5.00
+X2 (Cms):	+5.00
+Y1 (Cms):	-9.50
+Y2 (Cms):	+9.00
+Gantry Rotation Angle (deg):	0.01
+Energy :	10x
+MU1 :	152.99
+MU2 :	152.93
+Radiation Time (mins):	0.2555
+DoseRate (MU/min):	598.34
+PFN High Voltage Power Supply Current (A):	2.023605
+PFN Actual Voltage (KV):	18.46996
+RF Driver Voltage (V):	3.864
+RF Forward Power (W):	1.527405
+AFC Error (V):	-0.0009091633
+Gun Current (A):	0.1350861
+Gun High Voltage (V):	-9968
+Gun Grid Voltage (V):	46.97855
+Gun Filament Step Voltage (V):	5.399994
+Gun Filament Voltage (V):	5.518036
+Bend Magnet Current (A):	27.32239
+Bend Magnet Voltage (V):	3.809204
+Accelerator Solenoid Current (A):	35.22339
+Klystron Solenoid Current (A):	39.00146
+Radial Symmetry (%):	-0.00068025
+Transverse Symmetry (%):	0.00031644
+Target Current (nC):	144.1196
+Buncher Radial Current (A):	0.06474304
+Buncher Transverse Current (A):	0.01002502
+Angle Radial Current (A):	0.0788269
+Angle Transverse Current (A):	-0.1241608
+Position Radial Current (A):	-1.381546
+Position Transverse Current (A):	0.2644196
+Trim : (A)	-0.05296326
+Accelerator Vacion Current (uA):	0.0001525879
+Positive 5V dc:	4.994755
+Positive 24V dc:	23.50296
+Analog Negative 5V dc:	5.063993
+Analog Positive 5V dc:	4.956517
+Negative 12V dc:	12.2605
+Positive 3V dc:	3.283774
+Node Power Supply Voltage (V):	23.63265
+Water Level :	Normal
+City Water Temperature (deg C):	10.66309
+Internal Water Supply Temperature (deg C):	39.99718
+Gas Pressure (PSI):	30.46973
